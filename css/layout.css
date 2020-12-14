@@ -26,5 +26,32 @@ main {
     align-content: center
 }
 
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    } 
+     .robot-img {
+         animation-play-state: paused;
+         width: 150px;
+    }
+    .people-img {
+        width: 120px;
+    }
+    
+}
 
-
+@media (max-width: 640px) {
+    main {
+        flex-direction: column;
+    } 
+    .img-column {
+        display: none;
+    }
+    /* .robot-img {
+        animation-play-state: paused;
+        width: 150px;
+   }
+   .people-img {
+       width: 120px;
+   } */
+}
