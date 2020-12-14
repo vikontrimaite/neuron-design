@@ -1,0 +1,30 @@
+body {
+    background-color: var(--main-color);
+    padding-left: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.text-column {
+    width: 50%;
+}
+
+.img-column {
+    width: 50%;
+    align-content: center
+}
+
+
+

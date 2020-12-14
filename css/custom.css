@@ -1,0 +1,89 @@
+/* nav */
+header {
+    padding: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+.logo {
+    vertical-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.fa {
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.fa-shopping-basket {
+    margin-left: 50px;
+}
+
+li a:hover {
+    color:grey;
+}
+
+/* main */
+main {
+    padding: 40px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+h1 {
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    /* line-height: px; */
+    word-spacing: 7px;
+    margin-bottom: 50px;
+}
+
+img-column {
+    padding-right: 0;
+}
+
+.robot-img {
+    width: 250px;
+    position: relative;
+    animation-name: moving-robot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    padding-bottom: 100px;
+}
+
+.people-img {
+    width: 280px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 30px;
+}
+
+@keyframes moving-robot {
+    0% {
+        margin-top: 20px;
+    }
+    100% {
+        margin-top: 150px;
+    }
+}

@@ -1,0 +1,26 @@
+.btn {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 12px 40px;
+    font-size: 18px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.white-fill {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.white-fill:hover {
+    background-color: transparent;
+    color: white;
+}
